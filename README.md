@@ -1,2 +1,3 @@
-# civwatch-powder-ranger
-CIVWATCH by POWDER-RANGER - Open Source Civic Intelligence Platform
+CIVWATCH by POWDER-RANGER
+
+Full mission and docs here.
