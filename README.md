@@ -1,57 +1,72 @@
-[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,35:0D2818,70:1B5E20,100:FF9100&height=300&section=header&text=CIVWATCH+COMMUNITY&fontSize=70&fontColor=FF9100&animation=fadeIn&fontAlignY=42&desc=Open+Source+Civic+Intelligence+%E2%80%94+Powered+by+Community&descColor=FFCC80&descSize=18&descAlignY=64)](https://github.com/POWDER-RANGER/civwatch-powder-ranger)
+# CIVWATCH COMMUNITY
 
-![](https://img.shields.io/badge/PLATFORM-OPEN_SOURCE-FF9100?style=for-the-badge&labelColor=0D1117)
-![](https://img.shields.io/badge/LICENSE-MIT+ODbL-00C853?style=for-the-badge&labelColor=0D1117)
-![](https://img.shields.io/badge/STATUS-POINTER_REPO-69F0AE?style=for-the-badge&labelColor=0D1117)
+**Open-source community and documentation home for the CIVWATCH / CIVINTELLIGENCE ecosystem.**
 
-**CIVWATCH Community Edition** is the open-source civic intelligence platform for transparent, citizen-driven oversight of government and political processes.
+This repository is the community-facing pointer, contribution, and positioning surface. It does **not** contain the unified application runtime.
 
-> **What lives here:** this repository is the community-facing home for CIVINTELLIGENCE — positioning, contribution guides, and links. **CivilianIntelligence is the system of record for the unified application.** Application code remains in the core repositories below, with Watchtower and Cell Titan integrated as specialized pillars. (A previous version of this README advertised a `git clone && npm install` quick start; this repo contains documentation only, so that section has been removed.)
+> **System of record:** [CivilianIntelligence](https://github.com/POWDER-RANGER/CivilianIntelligence)
 
-## What the Platform Does
+## Ecosystem map
 
-| Module | Function |
-|--------|----------|
-| **📊 Political Finance Monitor** | Track campaign contributions, PAC activity, and dark money flows |
-| **🏛️ Lobbying Tracker** | Analyze LD-2/LD-203 filings to reveal influence networks |
-| **🗳️ Voting Record Correlator** | Cross-reference votes with contributions and lobbying contacts |
-| **📋 Promise Tracker** | Extract, monitor, and score political promises with evidence |
-| **📹 Body Camera Monitor** | Track 18,000+ police BWC policies with compliance scoring |
-| **🛡️ Overreach Defense** | Tools to protect citizens from surveillance and abuse |
+| Repository | Role |
+|---|---|
+| [CivilianIntelligence](https://github.com/POWDER-RANGER/CivilianIntelligence) | Unified application, public-data ingest, Veil, integration spine |
+| [civwatch-watchtower](https://github.com/POWDER-RANGER/civwatch-watchtower) | Map-first civic oversight |
+| [civwatch-cell-titan](https://github.com/POWDER-RANGER/civwatch-cell-titan) | Defensive RF telemetry and evidence |
+| [civwatch-app](https://github.com/POWDER-RANGER/civwatch-app) | Flutter operator client |
+| [CIVWATCH](https://github.com/POWDER-RANGER/CIVWATCH) | Legacy backend/ML/ingest/operations source |
+| [civwatch-v3](https://github.com/POWDER-RANGER/civwatch-v3) | Earlier RF dashboard/reference |
+| [civwatch-ruby-gem](https://github.com/POWDER-RANGER/civwatch-ruby-gem) | Ruby integration/package scaffold |
+| [civwatch-powder-ranger](https://github.com/POWDER-RANGER/civwatch-powder-ranger) | This community/docs repository |
 
-## Where the Code Lives
+## Platform focus
 
-| Repository | Purpose |
-|------------|---------|
-| **[CivilianIntelligence](https://github.com/POWDER-RANGER/CivilianIntelligence)** | The unified app: source catalog, desks (Movement / Oversight / Privacy), Veil dashboard |
-| **[CIVWATCH](https://github.com/POWDER-RANGER/CIVWATCH)** | Main platform: backend, ML, political finance modules, ops docs |
-| **[civwatch-watchtower](https://github.com/POWDER-RANGER/civwatch-watchtower)** | Civic oversight pillar: map dashboard, anomaly detection, citizen reports |
-| **[civwatch-cell-titan](https://github.com/POWDER-RANGER/civwatch-cell-titan)** | Defensive RF observability: federated Android sensors |
+The unified product provides public-interest access to:
 
----
+- civic source discovery
+- government movement and public-record activity
+- oversight and accountability material
+- political finance and contracts
+- privacy and surveillance transparency
+- records-request workflows
+- defensive RF observability
+- geospatial civic oversight
 
-## 🔔 Consolidation Notice
+## Contribution routing
 
-The CIVWATCH ecosystem is being consolidated into the unified CIVINTELLIGENCE platform. See the
-[consolidation charter and plan](https://github.com/POWDER-RANGER/CivilianIntelligence/blob/main/docs/CIVINTELLIGENCE.md).
+- **Unified app, public data, integration:** CivilianIntelligence
+- **Maps, features, reports:** Watchtower
+- **RF, telemetry, evidence:** Cell Titan
+- **Flutter client:** civwatch-app
+- **Legacy migration:** CIVWATCH
+- **Reference RF UI:** civwatch-v3
+- **Ruby integration scaffold:** civwatch-ruby-gem
+- **Community docs / positioning:** this repository
+
+## Integration contract
+
+The authoritative cross-repository contract lives in [CivilianIntelligence/docs/CROSS_REPO_INTEGRATION.md](https://github.com/POWDER-RANGER/CivilianIntelligence/blob/main/docs/CROSS_REPO_INTEGRATION.md).
+
+It defines service ownership, health endpoints, authentication boundaries, evidence/provenance expectations, and release gates.
+
+## Community principles
+
+- Public-interest first.
+- Neutral analysis over partisan spin.
+- Primary sources and traceable evidence.
+- Defensive use only.
+- No individual targeting.
+
+## Status note
+
+The repositories are at different maturity levels. A capability present in a legacy or predecessor repository is **not automatically a unified production capability**. Acceptance follows the current CIVINTELLIGENCE contract and passing CI/security gates.
 
 ## Contributing
 
-We welcome community contributions! Code and bug reports go to the core repositories above; positioning, documentation, and translation improvements are welcome here. Open an issue with the appropriate label (`enhancement`, `docs`, `blocked`).
+Code and bug reports should go to the repository that owns the functionality. Documentation, positioning, and community improvements are welcome here.
 
-## Connect
+## License
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Curtis_Farrar-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/curtis-farrar-g6b)
-[![GitHub](https://img.shields.io/badge/GitHub-POWDER--RANGER-181717?style=flat&logo=github)](https://github.com/POWDER-RANGER)
-[![Portfolio](https://img.shields.io/badge/Portfolio-powder--ranger.github.io-FF9100?style=flat&logo=githubpages)](https://powder-ranger.github.io)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--9273--2458-A6CE39?style=flat&logo=orcid)](https://orcid.org/0009-0008-9273-2458)
-
----
+MIT / ODbL where repository-specific data licensing requires it.
 
 **Built for citizens, by citizens. Transparency is not optional.**
-
-<div align="center">
-
-[![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:FF9100,35:0D2818,70:0D2818,100:0D1117&height=150&section=footer)](https://github.com/POWDER-RANGER/civwatch-powder-ranger)
-
-</div>
