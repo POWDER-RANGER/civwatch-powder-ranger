@@ -6,7 +6,7 @@
 
 **CIVWATCH Community Edition** is the open-source civic intelligence platform for transparent, citizen-driven oversight of government and political processes.
 
-> **What lives here:** this repository is the community-facing home for CIVINTELLIGENCE — positioning, contribution guides, and links. Application code lives in the core repositories below. (A previous version of this README advertised a `git clone && npm install` quick start; this repo contains documentation only, so that section has been removed.)
+> **What lives here:** this repository is the community-facing home for CIVINTELLIGENCE — positioning, contribution guides, and links. **CivilianIntelligence is the system of record for the unified application.** Application code remains in the core repositories below, with Watchtower and Cell Titan integrated as specialized pillars. (A previous version of this README advertised a `git clone && npm install` quick start; this repo contains documentation only, so that section has been removed.)
 
 ## What the Platform Does
 
