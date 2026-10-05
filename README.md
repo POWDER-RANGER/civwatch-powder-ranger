@@ -70,3 +70,47 @@ Code and bug reports should go to the repository that owns the functionality. Do
 MIT / ODbL where repository-specific data licensing requires it.
 
 **Built for citizens, by citizens. Transparency is not optional.**
+
+
+## Current ecosystem status
+
+The ecosystem is now centered on **CivilianIntelligence** as the system of record. The public application has moved beyond the original integration spine into a user-facing collection of native civic intelligence desks.
+
+### Available / active surface
+
+- **Framework** — living civic source catalog.
+- **Watchtower** — geospatial oversight and public-infrastructure observation, including the native ALPR infrastructure atlas.
+- **Finance** — public federal spending/records and SEC filing research.
+- **Privacy** — surveillance transparency and public-record pathways.
+- **Toolkit** — FOIA, Privacy Act, and state-request workflows.
+- **Cell Titan** — defensive RF observability and evidence.
+- **VEIL** — executive public-record briefing.
+- **Movement** — government movement, hearings, calendars, and related activity.
+- **Oversight** — accountability and public-record research across Congress, FOIA, Federal Register, and related sources.
+
+### Next focus: Reading Rooms & declassified libraries
+
+The next major activation is the **Reading Room / Declassified Libraries** layer. This is a planned first-class CIVINTELLIGENCE surface for finding and navigating official federal electronic reading rooms while preserving source attribution and provenance.
+
+Initial library targets:
+
+1. CIA Electronic Reading Room / CREST
+2. FBI Vault
+3. State Department FOIA Virtual Reading Room
+4. DHS FOIA Library
+5. NSA Reading Room
+6. DIA FOIA Electronic Reading Room
+
+Additional agency libraries and archival collections will follow as their public interfaces, provenance requirements, and maintenance paths are established.
+
+The intent is deliberately **not** to manufacture a parallel archive or hide the originating agency. CIVINTELLIGENCE should make the public record easier to find, understand, connect, and challenge while keeping the original source authoritative.
+
+### In progress
+
+- Reading Room / federal declassified-library activation
+- Production deployment synchronization for newly merged public surfaces
+- Unified evidence-first search across desks and normalized public records
+- Cross-desk dossiers and provenance-preserving timelines
+- Broader public-source ingestion and source health visibility
+
+> **Status discipline:** active means actually exposed and usable; planned/in progress means the capability is being built. Legacy repositories remain valuable source material, but a feature is not considered unified production capability until it exists in CIVINTELLIGENCE and meets the current integration contract.
