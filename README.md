@@ -65,6 +65,10 @@ The repositories are at different maturity levels. A capability present in a leg
 
 Code and bug reports should go to the repository that owns the functionality. Documentation, positioning, and community improvements are welcome here.
 
+## Documentation standard
+
+Follow the [CIVWATCH Documentation Standard](https://github.com/POWDER-RANGER/CivilianIntelligence/blob/main/docs/DOCUMENTATION_STANDARD.md) for attribution, generated artifacts, historical-status wording, and source/licence provenance.
+
 ## License
 
 MIT / ODbL where repository-specific data licensing requires it.
